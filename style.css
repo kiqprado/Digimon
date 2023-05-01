@@ -15,7 +15,6 @@ body {
 
 main {
   display: inline-block;
-  margin-top: 3%;
   padding: 15px;
   position: relative;
 }
@@ -39,8 +38,8 @@ main {
   position: absolute;
   font-weight: 600;
   color: #111111;
-  top: 77%;
-  left: 80%;
+  top: 88%;
+  left: 15%;
   font-size: clamp(9px, 5vw, 25px);
 }
 
