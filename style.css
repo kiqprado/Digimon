@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quantico', sans-serif;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #3f3f3f, #d3d3d3);
+}
+
+main {
+  display: inline-block;
+  margin-top: 3%;
+  padding: 15px;
+  position: relative;
+}
+
+.digivice {
+  width: 100%;
+  max-width: 555px;
+}
+
+.digi-img {
+  position: absolute;
+  top: 33.6%;
+  left: 39.9%;
+  border-radius: 9%;
+  transform: translate(-11%, 11%);
+  height: 26%;
+  width: 26.3%;
+}
+
+.digimon-data {
+  position: absolute;
+  font-weight: 600;
+  color: #111111;
+  top: 77%;
+  left: 80%;
+  font-size: clamp(9px, 5vw, 25px);
+}
+
+.digimon-name {
+  color: #111111;
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 33%;
+  bottom: 13%;
+  left: 33.5%;
+}
+
+#input {
+  width: 100%;
+  padding: 3%;
+  outline: none;
+  border: 1px solid #111111;
+  border-radius: 15%;
+  font-weight: 600;
+  background: #f5fffa;
+  color: #111111;
+  font-size: clamp(9px, 5vw, 18px);
+  box-shadow: -1px 1px 0 #7c8282, -2px 2px 0 #111111;
+}
+
+.btn-prev {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 34.5%;
+  right: 11.8%;
+}
+
+.btn-next {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 35.8%;
+  right: 11.8%;
+}
+
+.button {
+  width: 13.5%;
+  height: 8.5%;
+  padding: 2%;
+  border: 2px solid #111111;
+  border-radius: 49%;
+  font-size: clamp(7px, 5vw, 0.8rem);
+  font-weight: 700;
+  color: #111111;
+  background: #a5bdcd;
+  box-shadow: -1px 1px 0 #7c8282, -2px 2px 0 #111111;
+}
+
+.button:active {
+  box-shadow: inset -2px 2px 0 #1f1f1f;
+  font-size: 0.7rem;
+}
